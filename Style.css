@@ -1,0 +1,84 @@
+header{
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    text-align: left;
+}
+.headerbox{
+    width: 90%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: indigo;
+    height: 30px;
+    position: absolute;
+    bottom: 0%;
+    left: 4%;
+    text-align: center;
+    
+}
+nav{
+    height: 60px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    margin-top:  10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.row{
+    min-height: 33vh;
+    border-width: 2px;
+    border-style: solid;
+    border-color: royalblue;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    border-width: 2px;
+    border-style: solid;
+    border-color: seagreen;
+    width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.cardcontent{
+    width: 95%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: greenyellow;
+    height: 80%;
+    text-align: center;
+    position: relative;
+    
+}
+.cardcontentfooter{
+    width: 90%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: indigo;
+    height: 30px;
+    position: absolute;
+    bottom: 0%;
+    left: 4%;
+    text-align: center;
+
+}
+
+footer{
+    min-height: 40px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: pink;
+    text-align: center;
+}
+@media only screen and (max-width: 600px){
+    .card{
+        width: 100%;
+    }
+}
