@@ -124,70 +124,29 @@ section {
   width: 35%;
   text-align: center;
   margin: 3.5%;
-  color: rgb(136, 113, 14);
+  color: black;
   font-size: 18px;
   line-height: 1.2;
+  border: 3px solid var(--secondary-color);
+  background-color: rgba(231, 226, 195, 0.8);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .journey-form h3 {
   font-style: italic;
   font-size: 55px;
-  color: rgb(141, 117, 11);
+  color: black;
   text-shadow: 0 0 2S0px rgba(0, 0, 0, 0.5);
-}
-
-.journey-form {
-  border: 3px solid var(--secondary-color);
-  background-color: rgba(231, 226, 195, 0.8);
-  padding: 20px;
-  color: var(--secondary-color);
-  width: 40%;
-  margin: 3.5%;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.journey-form button:hover {
-  background-color: var(--tertiary-color);  
-}
-
-.journey-form h3 {
   font-size: 24px;
   margin: 0;
 }
+
 .journey-form p {
   margin: 5px 0 15px 0;
 }
 
-.form-input {
-  border: 1px solid var(--secondary-color);
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: var(--secondary-color);
-  width: 100%;
-  margin-bottom: 15px; 
-  border-radius: 10px;
-  background-color: rgba(255,255,255, 0.75);
-}
-
-.form-input:focus {
-  background-color: rgba(255,255,255, 1);
-  outline: none;
-}
-
-.journey-form label {
-  margin: 0 5px;
-}
-
-.journey-form button {
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 10px;
-} 
 /* JOURNEY STYLES ENDS */
 
 /* SECTION TITLE STYLES START */
@@ -210,9 +169,26 @@ a {
 .secondary-border {
   border-color: black;
 }
+.section-title .primary-border h2 {
+  font-size: 48px;
+  border: 3px solid;
+  color: black;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
 /* SECTION TITLE STYLES END */
 
 /* WHAT I DO STYLES */
+h2 {
+  line-height: 1.7;
+  color: var(--tertiary-color);
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+}
 .intro p {
   line-height: 1.7;
   color: var(--tertiary-color);
@@ -224,6 +200,10 @@ a {
 /* WHAT I DO STYLES END */
 
 /* MY EXAMPLESS START */
+.website-examples {
+text-align: center;
+}
+
 .examples {
   width: 100%;
   margin: 0 auto;
@@ -267,6 +247,7 @@ a {
 .contact {
   background: var(--secondary-color);
 }
+
 .contact h2 {
   color: black;
 }
@@ -312,9 +293,6 @@ a {
   text-align: right;
 }
 
-.flex-row {
-  display: flex;
-}
 /* UTILITIES END */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
@@ -345,16 +323,13 @@ a {
     width: 100%;
   }
 
-  .Journey-form, .journey-form {
-    width: 100%;
-  }
-  
   .Journey-form {
-    text-align: center;
+    width: 100%;
+    text-align: center
   }
 
   .section-title .secondary-border {
-    width: 80%;
+    width: 100%;
   }
   
   .examples {
@@ -375,7 +350,7 @@ a {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  .journey-form button {
+  .journey-form {
     width: 100%;
   }
 
