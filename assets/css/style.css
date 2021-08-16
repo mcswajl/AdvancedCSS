@@ -120,16 +120,16 @@ section {
   background-position: 80%;
 }
 
-.journey-note {
+.journey-form {
   width: 35%;
-  text-align: right;
+  text-align: center;
   margin: 3.5%;
   color: rgb(136, 113, 14);
   font-size: 18px;
   line-height: 1.2;
 }
 
-.journey-note h2 {
+.journey-form h2 {
   font-style: italic;
   font-size: 55px;
   color: rgb(141, 117, 11);
@@ -260,7 +260,6 @@ a {
 .examples-SEO p {
   font-size: 17px;
   color:white;
-
 /* My EXAMPLESS END */
 
 /* REACH OUT STYLES START */
@@ -346,11 +345,11 @@ a {
     width: 100%;
   }
 
-  .Journey-Note, .journey-form {
+  .Journey-form, .journey-form {
     width: 100%;
   }
   
-  .Journey-Note {
+  .Journey-form {
     text-align: center;
   }
 
