@@ -1,4 +1,4 @@
-# Run Buddy, Inc
+# Josh McSwain's Portfolio
 
 ## Purpose
 This websiteis start to my website/coding bootcamp journey. This website includes a heading with navigation links to sections of the webspage, the website name in the top left returns the user back to the top when clicked.
